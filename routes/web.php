@@ -93,6 +93,5 @@ Route::group([
 });
 
 
-//đã test thành công
 // Auth::routes();
 // Route::get('/home', 'HomeController@index')->name('home');
