@@ -1,0 +1,14 @@
+.navbar-right {
+    margin-left: 65em;
+}
+	
+img.card-img-top.img-fluid.book {
+    max-height: 400px;
+   /* margin: auto;*/
+}
+
+.price{
+	font-weight: bold;
+	font-size: 25px;
+}
+

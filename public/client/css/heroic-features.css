@@ -1,0 +1,200 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+ body {
+    margin:0;
+    padding: 0;
+ }
+
+ li.nav-item.active {
+    margin-left: -44em;
+ }
+
+ .container.contentIndex {
+    margin-top: 8em;
+    box-shadow: 5px 10px 5px #80808061;
+ }
+
+ .row.new_vertical_index {
+    border-bottom: 1px solid #baa9a957;
+    padding-bottom: 10px;
+ }
+
+ .row.text-center.news_horizontal_index {
+    border-bottom: 1px solid #ff4a3c;
+    margin-bottom: 2em;
+    border-bottom-width: 5px;
+ }
+
+ .card.h-100.news_big_horizontal_index {
+    background: #ffffff0d;
+ }
+
+ h4.card-title.text-left.title_3_lines_news {
+    border-left: 1px solid #ff4a3c;
+    border-left-width: 6px;
+    padding-left: 8px;
+ }
+
+ p.card-text.text-left.description_3_lines_news a{
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+ }
+
+ p.card-text.text-left.description_3_lines_news a:hover{
+    color: gray;
+    transition: 0.24s;
+ }
+
+ p.card-text.text-left.description_3_lines_news {
+    border-bottom: 1px solid #80808038;
+ }
+
+ .news_horizontal_index a{
+    color: black;
+    text-decoration: none;
+ }
+
+
+ .new_vertical_index a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 17px;
+    margin-top: 3px;
+    font-weight: 600;
+    text-align: justify;
+ }
+
+
+ .col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+ }
+ .col-md-3 img{
+    width:100%;
+    height:auto;
+ }
+
+ /*carousel*/
+ body .carousel-indicators li{
+    background-color:red;
+ }
+ body .carousel-control-prev-icon,
+ body .carousel-control-next-icon{
+    background-color:red;
+ }
+ body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+ }
+
+ .col-lg-8.col-md-6.mb-4.tinmoi {
+    border-bottom: 1px solid #ff4a3c;
+    margin-bottom: 2em;
+    border-bottom-width: 2px;
+ }
+
+ .._1carousel{
+    position: relative;
+ }
+
+ ._1carousel_grad{
+    width:250px;
+    height:150px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    background-image: -webkit-linear-gradient(top,#ffffff52,#000000);
+    transition: 0.5s;
+ }
+
+  ._1carousel_grad:hover{
+    opacity: 0;
+ }
+
+
+ ._1carousel_title{
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 31px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+ }
+
+ ._1carousel:hover ._1carousel_title{
+    bottom: 1em;
+ }
+
+.row._1result a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.row._1result a:hover{
+    color: gray;
+}
+
+.media.mb-4.comment {
+    background: #a8b0b91f;
+}
+
+.comment p {
+    padding: 0px 4px;
+}
+
+.commentAction  {
+    padding: 7px;
+    font-size: 19px;
+    color: #00000042;
+}
+
+.commentAction:hover  {
+    color: black;
+}
+
+.usernameComment {
+    font-size: 20px;
+    padding: 6px 7px;
+    font-family: initial;
+}
+
+div.contentComment {
+    font-size: 15px;
+    font-family: initial;
+    text-align: justify;
+    padding-left: 8px;
+}
+
+.dropdown-menu.show {
+    margin: -13px -130px;
+    font-size: 15px;
+    padding: 0px 0px;
+}
+
+/*comment*/
+#commentDiv {
+    background: #bcbcbc1f;
+    border-radius: 16px;
+    border: 1px solid #80808024;
+    height: 100%;
+    position: relative;
+}
+
+p#usernameCommentTime {
+    margin-left: 8px;
+    margin-top: -25px;
+    border-bottom: 1px solid #8080801f;
+}
